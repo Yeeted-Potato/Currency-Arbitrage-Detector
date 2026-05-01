@@ -12,7 +12,7 @@ I have used real time api data, using freecurrencyapi.com, which gives live curr
   
 ## 📖Language:  
 Python  
-  
+   
 ## 📱Features:  
 Real Time api currencies  
 Manual input  
