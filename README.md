@@ -6,7 +6,7 @@ Arbitrage is when there is a negative cycle. A negative cycle is when the exchan
 I chose Floyd-Warshall as it is a simple and easy to understand algorithm, which finds the shortest path between all currencies. 
 It allows easy detection of arbitrage as the currency rate to itself will be less than 1 if there is arbitrage. 
 Although Floyd-warshall is less efficient at O(n^3) and Bellman-ford is O(n x m) this will be fine for my case as we aren’t using a large dataset of currencies which made it negligible.  
-  
+   
 I have used real time api data, using freecurrencyapi.com, which gives live currencies. As well as the option for user inputted data.  
 
    
