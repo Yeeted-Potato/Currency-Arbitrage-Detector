@@ -1,6 +1,6 @@
 # 💰Currency Arbitrage Detector  
 Currency Exchange can be inefficient by simply transferring money from one currency to another you could end up paying more by going from source to target. Than if you went through a set path, giving you more for your money.  
-  
+   
 Arbitrage is when there is a negative cycle. A negative cycle is when the exchange rates of different currencies multiply and give you more money than you put in. For example: USD -> EUR = 1.1, EUR -> AUD = 1.2, AUD -> USD = 1.1, If you convert 1 USD through this cycle 1 x 1.1 = 1.1, 1.1 x 1.2 = 1.32, 1.32 x 1.1 = 1.452. You end up with 1.452 USD although you started with 1    
   
 I chose Floyd-Warshall as it is a simple and easy to understand algorithm, which finds the shortest path between all currencies. 
